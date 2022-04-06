@@ -24,6 +24,3 @@ void printPoly(Monom* poly, unsigned int size);
 void printPolySum(Monom* poly1, unsigned int size1, Monom* poly2, unsigned int size2);
 void printPolyMul(Monom* poly1, unsigned int size1, Monom* poly2, unsigned int size2);
 void arrangeAndPrint(Monom* source, unsigned int sourceSize);
-
-
-

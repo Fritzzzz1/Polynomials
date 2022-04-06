@@ -259,4 +259,3 @@ void arrangeAndPrint(Monom* source, unsigned int sourceSize)
 
     printPoly(source, newSize);
 }
-
