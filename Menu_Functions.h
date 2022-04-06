@@ -3,8 +3,7 @@
 
 int welcomeMenu()
 {
-    int choice = 0;
-    int running = 1;
+    int choice = 0, running = 1;
 
     printf(WELCOME);
 

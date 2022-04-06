@@ -35,7 +35,6 @@ const char* MENU_ERROR_CHOICE = "\n*** Menu options are simply 1, 2, or 3 ***\n"
 const char* MENU_PROMPT_ENTER_POLY = "\nEnter data for polynomial:\n";
 const char* MENU_PROMPT_ENTER_POLY1 = "\nEnter data for polynomial 1:\n";
 const char* MENU_PROMPT_ENTER_POLY2 = "\nEnter data for polynomial 2:\n";
-
 const char* MENU_DISPLAY_POLY = "The given polynomial combined is:\n";
 const char* MENU_DISPLAY_SUM = "\nThe sum of the 2 given polynomials is:\n";
 const char* MENU_DISPLAY_MULTI = "\nThe result of multiplication of the 2 given polynomials is:\n";
