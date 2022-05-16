@@ -9,4 +9,4 @@ Feel free to take a look at the code :)
 
 Usage example (printing the multipication of two polynoms) :
 
-![Screenshot (379)](https://user-images.githubusercontent.com/102416383/168620012-bd433a40-d244-4e69-a1c8-9ba5a60897ad.png)
+![Screenshot (380)](https://user-images.githubusercontent.com/102416383/168625933-29bf36f7-9b63-48a5-81b5-250dbf3fc6ee.png)
