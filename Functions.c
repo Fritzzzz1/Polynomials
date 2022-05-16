@@ -1,4 +1,4 @@
-#include "Header.h"
+#include "main.h"
 
 Monom* getPolynom(unsigned int* size)
 {
@@ -259,3 +259,4 @@ void arrangeAndPrint(Monom* source, unsigned int sourceSize)
 
     printPoly(source, newSize);
 }
+

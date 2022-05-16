@@ -2,7 +2,6 @@
 #define MENU_COMMAND_SUM_TWO 2
 #define MENU_COMMAND_MULTI_TWO 3
 
-int welcomeMenu();
 int printOnePoly();
 int sumTwoPolys();
 int multiTwoPolys();
@@ -24,8 +23,6 @@ const char* MENU_OPTIONS = "\nOPTIONS:\n"
                      "Please enter your choice:";
 
 const char* MENU_REFRESH = "\nEnter 1 to go back to menu or 0 to exit \n";
-const char* MENU_ERROR_FAIL = "You have failed to interact with the menu :)\n"
-                        "Please try again...\n";
 
 const char* MENU_ERROR_INTS_ONLY = "\n*** Please follow the instructions on how to enter a polynomial."
                          "\nonly numbers are allowed, and in an even amount ***\n";

@@ -1,5 +1,5 @@
-#include "Menu_Header.h"
-#include "Functions.h"
+#include "Menu.h"
+#include "main.h"
 
 int welcomeMenu()
 {

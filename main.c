@@ -1,4 +1,4 @@
-#include "Menu_Functions.h"
+#include "main.h"
 
 void main() {
     int option = welcomeMenu();
