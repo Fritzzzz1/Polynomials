@@ -65,6 +65,13 @@ int printOnePoly()
 
     return 0;
 }
+void printTwoPolys(Monom* poly1, unsigned int size1, Monom* poly2, unsigned int size2)
+{
+    printf("\nPolynom 1 combined:\n");
+    printPoly(poly1, size1);
+    printf("\nPolynom 2 combined:\n");
+    printPoly(poly2, size2);
+}
 
 int sumTwoPolys()
 {
@@ -82,6 +89,8 @@ int sumTwoPolys()
     poly2 = getPolynom(&size2);
     if (poly2 == NULL)
         return -1;
+
+    printTwoPolys(poly1, size1, poly2, size2);
 
     printf(MENU_DISPLAY_SUM);
     printPolySum(poly1, size1, poly2, size2);
@@ -107,6 +116,8 @@ int multiTwoPolys()
     poly2 = getPolynom(&size2);
     if (poly2 == NULL)
         return -1;
+
+    printTwoPolys(poly1, size1, poly2, size2);
 
     printf(MENU_DISPLAY_MULTI);
     printPolyMul(poly1, size1, poly2, size2);
